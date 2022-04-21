@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luciano Caruso DW-M2A-2021</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+</head>
+<body>
+  <header class="container-fluid p-0">
+    <h1 id="logo_pag">Shark Fitness</h1>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+        <div class="container-fluid">
+          <button class="navbar-toggler ms-auto" type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#barra-navegacion" 
+                  aria-expanded="false" 
+                  aria-label="Menú hamburguesa">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="barra-navegacion">
+            <ul class="navbar-nav ms-auto fs-5" id="menu">
+              <li class="nav-item">
+                <a class="nav-link" href="#acerca_de_nosotros">Acerca de nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ubicaciones">Ubicaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#descarga_nuestra_app">Descargar APP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#socios">Socios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proba_una_clase">Probá una clase</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+      </header>
+
+      <section class="container-fluid p-0">
+        <div id="carrusel_de_img" class="carousel slide" 
+             data-bs-ride = "carousel"
+             data-bs-pause = "false"
+             data-bs-interval = "3000"
+             data-bs-wrap = "true">
+             
+            <div class="carousel-indicators">
+                <button type="button" 
+                        data-bs-target="#carrusel_de_img" 
+                        data-bs-slide-to="0" 
+                        class="active" 
+                        aria-current="true" 
+                        aria-label="Ver imagen 1">
+                </button>
+
+                <button type="button" 
+                        data-bs-target="#carrusel_de_img" 
+                        data-bs-slide-to="1" 
+                        aria-label="Ver imagen 2">
+                </button>
+
+                <button type="button" 
+                        data-bs-target="#carrusel_de_img" 
+                        data-bs-slide-to="2" 
+                        aria-label="Ver imagen 3">
+                </button>
+            </div>
+        
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                 <img src="img/comunidad.jpg" class="d-block w-100" alt="Nuestra comunidad">
+                </div>
+
+          <div class="carousel-item">
+            <img src="img/clases_grupales.jpg" class="d-block w-100" alt="Nuestras Clases Grupales">
+          </div>
+          
+          <div class="carousel-item">
+            <img src="img/app.jpg" class="d-block w-100" alt="Descarga nuestra APP">
+          </div>
+        </div>  
+      </div>
+    </section>
+  
+    <section class="container-fluid color1" id="acerca_de_nosotros">
+      <div class="row py-4">
+        <div class="col-lg-auto col-md py-3 px-5">
+           <figure>
+             <picture>
+               <source media="(max-width:576px)" srcset="img/acerca_de_nosotros_mobile.jpg">
+               <source media="(max-width:768px)" srcset="img/acerca_de_nosotros_tablet.jpg">
+               <source media="(max-width:1200px)" srcset="img/acerca_de_nosotros_xl.jpg">
+               <img src="img/acerca_de_nosotros.jpg" class="rounded border border-dark" id="img-acerca" alt="Acerca de nosotros">
+             </picture>
+           </figure>
+        </div>
+        <article class="col-lg col-md-auto">
+          <h2 class="text-center txt1 py-3">Acerca de Nosotros</h2>
+            <p class=" col-lg fs-5 text-center">Proporcionando entrenamiento personal y fitness desde 2010.
+              Entrena en nuestros gimnasios personalizados y totalmente
+              equipados con equipo de última generación.<br>
+              Nos encanta entrenar a nuestros clientes en un entorno de apoyo
+              y motivación, asegurando que su experiencia sea de lo más satisfactoria. 
+            </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container-fluid bg-dark" id="ubicaciones">  
+        <h2 class="text-center py-3 txt1">No importa donde estés</h2>
+          <p class="text-light text-center fs-5">Buscá tu sucursal más cercana y vení a entrenar con
+            nuestros pases multisedes.
+          </p>
+
+          <div class="card-group gap-4 py-3">
+            <div class="card border border-danger">
+              <img src="img/sede-1.jpg" class="card-img-top" alt="Sede de Shark Fitness del Jardín Botánico">
+              <div class="card-body color1">
+                <h3 class="card-title h2">Jardín Botánico</h3>
+                <p class="card-text fs-5">Si estás buscando sentirte bien, cuidar tu salud,
+                  mejorar tu calidad de vida y lograr el cuerpo que realmente querés tener,
+                  dentro de un ambiente agradable, ¿pensaste en venir a entrenar a <strong>Shark fitness
+                  del Jardín Botánico</strong>?
+                </p>
+                <a href="#" class="btn btn-primary my-2 float-end px-4">Inscripción</a>
+              </div>
+            </div>
+            <div class="card border border-danger">
+              <img src="img/sede-2.jpg" class="card-img-top" alt="Sede de Shark Fitness de Belgrano">
+              <div class="card-body color1">
+                <h3 class="card-title h2">Belgrano</h3>
+                <p class="card-text fs-5">En <strong>Shark Fitness Belgrano</strong> te ofrecemos
+                  las mejores instalaciones, con amplios horarios para que elijas el que mejor
+                  se adapte a tu rutina, ¿A qué estás esperando? Vení y sumate a nuestra comunidad.
+                </p>
+                <a href="#" class="btn btn-primary my-2 float-end px-4">Inscripción</a>
+              </div>
+            </div>
+            <div class="card border border-danger">
+              <img src="img/sede-3.jpg" class="card-img-top" alt="Sede de Shark Fitness Devoto">
+              <div class="card-body color1">
+                <h3 class="card-title h2">Devoto</h3>
+                <p class="card-text fs-5"> <strong>Cuidar tu salud y mejorar tu calidad de vida</strong> es nuestro
+                  principal obejtivo. En nuestra sede vas a encontrar un ambiente cálido,
+                  súper luminoso y energético. Vení a inscribirte a Shark Fitness Devoto.
+                </p>
+                <a href="#" class="btn btn-primary my-2 float-end px-4">Inscripción</a>
+              </div>
+            </div>
+          </div>
+
+          <section class="container-fluid">
+              <h2 class="txt1 py-3 text-center">Otras Sucursales</h2>
+              <div class="row gap-3 py-3 d-flex flex-nowrap overflow-auto">
+                <div class="contenedor-img col-lg-3 col-md-auto p-0">
+                  <figure>
+                    <picture>
+                      <source media="(max-width:576px)" srcset="img/sede-villa-urquiza-mobile.jpg">
+                      <img src="img/sede-villa-urquiza.jpg" class="img img-fluid" alt="Sede Shark Fitness de Villa Urquiza">
+                     </picture>
+                  </figure>
+                    <div class="img_overlay">
+                      <div class="img_title">Sede de Villa Urquiza</div>
+                        <a href="#" class="btn btn-danger">Ver sede</a>
+                    </div>
+               </div>
+            <div class="contenedor-img col-lg-3 col-md-auto p-0">
+              <figure>
+                <picture>
+                  <source media="(max-width:576px)" srcset="img/sede-palermo-mobile.jpg">
+                  <img src="img/sede-palermo.jpg" class="img img-fluid" alt="Sede Shark Fitness de Palermo">
+                </picture>
+               </figure>
+                    <div class="img_overlay">
+                      <div class="img_title">Sede de Palermo</div>
+                        <a href="#" class="btn btn-danger">Ver sede</a>
+                    </div>
+            </div>
+            <div class="contenedor-img col-lg-3 col-md-auto p-0">
+              <figure>
+                <picture>
+                  <source media="(max-width:576px)" srcset="img/sede-ballester-mobile.jpg">
+                  <img src="img/sede-ballester.jpg" class="img img-fluid" alt="Sede Shark Fitness de Villa Ballester">
+                </picture>
+              </figure>
+                    <div class="img_overlay">
+                      <div class="img_title">Sede de Villa Ballester</div>
+                        <a href="#" class="btn btn-danger">Ver sede</a>
+                    </div>
+            </div>
+            <div class="contenedor-img col-lg-3 col-md-auto p-0">
+              <figure>
+                <picture>
+                  <source media="(max-width:576px)" srcset="img/sede-paternal-mobile.jpg">
+                  <img src="img/sede-paternal.jpg" class="img img-fluid" alt="Sede Shark Fitness de Paternal">
+                </picture>
+              </figure>
+                    <div class="img_overlay">
+                      <div class="img_title">Sede de Paternal</div>
+                        <a href="#" class="btn btn-danger">Ver sede</a>
+                    </div>
+            </div>
+            <div class="contenedor-img col-lg-3 col-md-auto p-0">
+              <figure>
+                <picture>
+                  <source media="(max-width:576px)" srcset="img/sucursal-cabildo-mobile.jpg">
+                  <img src="img/sucursal-cabildo.jpg" class="img img-fluid" alt="Sede Shark Fitness de Paternal">
+                </picture>
+              </figure>
+                    <div class="img_overlay">
+                      <div class="img_title">Sede de Cabildo</div>
+                        <a href="#" class="btn btn-danger">Ver sede</a>
+                    </div>
+            </div>
+            <div class="contenedor-img col-lg-3 col-md-auto p-0">
+              <figure>
+                <picture>
+                  <source media="(max-width:576px)" srcset="img/sucursal-vicente-lopez-mobile.jpg">
+                  <img src="img/sucursal-vicente-lopez.jpg" class="img img-fluid" alt="Sede Shark Fitness de Paternal">
+                </picture>
+              </figure>
+                    <div class="img_overlay">
+                      <div class="img_title">Sede de Vicente López</div>
+                        <a href="#" class="btn btn-danger">Ver sede</a>
+                    </div>
+            </div>
+            <div class="contenedor-img col-lg-3 col-md-auto p-0">
+              <figure>
+                <picture>
+                  <source media="(max-width:576px)" srcset="img/sucursal-dot-mobile.jpg">
+                  <img src="img/sucursal-dot.jpg" class="img img-fluid" alt="Sede Shark Fitness de Paternal">
+                </picture>
+              </figure>
+                    <div class="img_overlay">
+                      <div class="img_title">Sede de Dot Baires Shopping</div>
+                        <a href="#" class="btn btn-danger">Ver sede</a>
+                    </div>
+            </div>
+            <div class="contenedor-img col-lg-3 col-md-auto p-0">
+              <figure>
+                <picture>
+                  <source media="(max-width:576px)" srcset="img/sucursal-palermo-hollywod-mobile.jpg">
+                  <img src="img/sucursal-palermo-hollywod.jpg" class="img img-fluid" alt="Sede Shark Fitness de Paternal">
+                </picture>
+              </figure>
+                    <div class="img_overlay">
+                      <div class="img_title">Sede de Palermo Hollywood</div>
+                        <a href="#" class="btn btn-danger">Ver sede</a>
+                    </div>
+            </div>
+          </div>
+         </section>
+    </section>
+
+    <section class="container-fluid color2">
+      <h2 class="text-light py-5 text-center">Nuestros entrenamientos destacados</h2>
+      
+    <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 pb-4">
+      <div class="col">
+        <div class="card border-dark">
+          <img src="img/tonificar.jpg" class="card-img-top" alt="Tonificar tu cuerpo">
+          <div class="card-body bg-dark">
+            <h3 class="card-title text-center text-light">Tonificar tu cuerpo</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card border-dark">
+          <img src="img/aerobico.jpg" class="card-img-top" alt="Entrenamiento aeróbico">
+          <div class="card-body bg-dark">
+            <h3 class="card-title text-center text-light">Entrenamiento aeróbico</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card border-dark">
+          <img src="img/funcional.jpg" class="card-img-top" alt="Entrenamiento funcional">
+          <div class="card-body bg-dark">
+            <h3 class="card-title text-center text-light">Entrenamiento funcional</h3>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card border-dark">
+          <img src="img/musculacion.jpg" class="card-img-top" alt="Ganar musculación">
+          <div class="card-body bg-dark">
+            <h3 class="card-title text-center text-light">Enrenamiento para musculación</h3>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card border-dark">
+          <img src="img/quemar-calorias.jpg" class="card-img-top" alt="Quemar Calorías">
+          <div class="card-body bg-dark">
+            <h3 class="card-title text-center text-light">Entrenamiento para quemar calorías</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card border-dark">
+          <img src="img/entrenar-tren-inferior.jpg" class="card-img-top" alt="Entrenar tren inferior">
+          <div class="card-body bg-dark">
+            <h3 class="card-title text-center text-light">Entrenamiento para el tren inferior </h3>
+          </div>
+        </div>
+      </div>
+    </div>  
+    </section>
+
+    <section class="container-fluid bg-dark pt-5" id="descarga_nuestra_app">
+      <div class="row">
+        <article class="col-lg-5 col-md px-0">
+          <figure>
+            <picture>
+              <source media="(max-width:576px)" srcset="img/modelo-app_mobile.png">
+              <source media="(max-width:768px)" srcset="img/modelo-app_tablet.png">
+              <source media="(max-width:1200px)" srcset="img/modelo-app-xl.png">
+              <img src="img/modelo-app.png" id="img-app" alt="Descargá nuestra app">
+            </picture>
+          </figure>
+        </article>
+
+        <article class="col-lg-7 col-md-auto text-center text-light pt-5 mt-lg-5 px-5">
+          <h2 class="txt1">Descargá nuestra APP</h2>
+            <p class="pt-3 fs-5">Entrená desde tu casa con las mejores rutinas, sin equipamiento extra.
+              Definí tus propias metas y reservá clases por Google Meet.
+            </p>
+            <a href="https://play.google.com/store/apps?hl=es_419&gl=US" target="_blank" class="text-light btn btn-danger mt-3 me-4 fs-5 mb-4"> <i class="bi bi-robot"> Descargar para Play Store </i></a> <!--No encontré el icono de android en la galería de Bootstrap-->
+            <a href="https://www.apple.com/la/app-store/" target="_blank" class="text-light btn btn-danger mt-3 me-4 fs-5 mb-4"><i class="bi bi-apple"> Descargar para App Store </i></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="container-fluid color1 py-4" id="socios">
+        <h2 class="text-light text-center pt-5">Beneficios de membresia</h2>
+          <p class="fs-5 text-center">Con tu membresía tenés acceso a las multisedes,
+            clases con los mejores coaches y mucho más. 
+          </p>
+      <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4 pb-4 pt-4">
+        <div class="col">
+          <div class="card border-dark">
+            <img src="img/descargar-app.jpg" class="card-img-top" alt="Descargá nuestra app">
+            <div class="card-body bg-dark">
+              <h3 class="card-title text-center text-light fs-md-5">Descargá nuestra APP</h3>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card border-dark">
+            <img src="img/comunidad_pc.jpg" class="card-img-top" alt="Nuestra comunidad">
+            <div class="card-body bg-dark">
+              <h3 class="card-title text-center text-light fs-md-5">Nuestra comunidad</h3>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card border-dark">
+            <img src="img/clases_grupales_pc.jpg" class="card-img-top" alt="Clases grupales">
+            <div class="card-body bg-dark">
+              <h3 class="card-title text-center text-light fs-md-5">Clases grupales</h3>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card border-dark">
+             <img src="img/multisedes_pc.jpg" class="card-img-top" alt="Pases multisede">
+            <div class="card-body bg-dark">
+              <h3 class="card-title text-center text-light fs-md-5">Pases multisede</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section  id="proba_una_clase">
+      <form action="formulario/enviar_formulario.php" method="get" enctype="multipart/form-data" class="d-flex flex-column align-items-center py-5" id="contenedor-formulario">
+        <div class="mb-4 w-50">
+           <input type="text" class="form-control" placeholder="Ingrese su nombre" name="nombre" required autocomplete="off">
+        </div>
+
+        <div class="mb-4 w-50">
+          <input type="text" class="form-control" placeholder="Ingrese su apellido" name="apellido" required autocomplete="off">
+       </div>
+
+        <div class="mb-4 w-50">
+          <input type="email" class="form-control" placeholder="Ingrese su email" name="email" required autocomplete="on">
+        </div>
+
+       <div class="mb-4 w-50">
+        <input type="tel" class="form-control" placeholder="Ingrese su celular" name="celular" autocomplete="off" required>
+      </div>
+
+      <div  class="w-50 mb-4">
+        <select class="form-select" name="sede">
+         <option value="1">Seleccioná tu sede</option>
+         <option value="2">Villa Urquiza</option>
+         <option value="3">Palermo</option>
+         <option value="4">Villa Ballester</option>
+          <option value="5">Paternal</option>
+          <option value="6">Cabildo</option>
+          <option value="7">Vicente López</option>
+         <option value="8">Dot Baires Shopping</option>
+          <option value="9">Palermo Hollywood</option>
+        </select>
+      </div>
+
+        <div class="mb-4 w-50">
+        <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
+      </div>       
+
+      <div class="mb-4 w-50">
+        <input type="submit" class="btn btn-danger px-5 fs-5 float-end">
+      </div>
+    </form>
+  </section>
+
+
+<footer class="text-center text-lg-start bg-light text-muted">
+
+  <section class="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
+    <div>
+      <a href="https://www.facebook.com/" target="_blank" class=" me-4 colortextofooter fs-5">
+        <i class="bi bi-facebook"></i>
+      </a>
+
+      <a href="https://twitter.com/home?lang=es" target="_blank" class="me-4 colortextofooter fs-5">
+        <i class="bi bi-twitter"></i>
+      </a>
+
+      <a href="https://www.instagram.com/" target="_blank" class="me-4 colortextofooter fs-5">
+        <i class="bi bi-instagram"></i>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <div class="container text-center text-md-start mt-5">
+
+      <div class="row mt-3">
+
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+          <h4 class="h5 fw-bold mb-4">Shark Fitness</h4>
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <h4 class="h5 fw-bold mb-4">
+            Nosotros
+          </h4>
+          <p>
+            <a href="#acerca_de_nosotros" class="text-reset"><i class="bi bi-file-earmark-person-fill"> Acerca de nosotros</i></a>
+          </p>
+          <p>
+            <a href="#ubicaciones" class="text-reset"><i class="bi bi-geo-alt-fill"> Ubicaciones</i></a>
+          </p>
+          <p>
+            <a href="#descarga_nuestra_app" class="text-reset"><i class="bi bi-arrow-down-circle-fill"> Descargar APP</i></a>
+          </p>
+          <p>
+            <a href="#socios" class="text-reset"><i class="bi bi-person-plus-fill"> Socios</i></a>
+          </p>
+          <p>
+            <a href="#proba_una_clase" class="text-reset"><i class="bi bi-bookmark-plus-fill"> Probá una clase</i> </a>
+          </p>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+          <h4 class="h5 fw-bold mb-4">
+            Alumno
+          </h4>
+          <p><i class="bi bi-person-fill me-2"></i> Nombre y apellido: Luciano Caruso</p>
+          <p>
+            <i class="bi bi-envelope-fill me-2"></i>
+            Correo: luciano.caruso@davinci.edu.ar
+          </p>
+          <p><i class="bi bi-bookmark-fill me-2"></i>Comisión: DW-M2A</p>
+          <p><i class="bi bi-calendar-event-fill me-2"></i>Año: 2021</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  
+  <div class="text-center p-3 color-final-footer">
+    <p class="text-reset fw-bold"> © 2021 Copyright: <a class="text-decoration-none" href="https://shark-fitness.000webhostapp.com/">Shark Fitness</a></p>
+  </div>
+</footer>
+      <script src="js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
+
